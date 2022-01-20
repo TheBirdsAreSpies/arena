@@ -2,6 +2,18 @@ package de.fbauer;
 
 public class Arena {
    public static void main(String[] args) {
+      Beutel beutel = new Beutel();
+      beutel.add(new Item("Pokeball", 10));
+      beutel.add(new Item("Super-Trank", 20));
+      beutel.add(new Item("Beleber", 15));
+      beutel.add(new Item("Superball", 20));
+      beutel.add(new Item("Seil", 5));
+      beutel.add(new Item("Gold Nugget", 5000));
+
+
+      Item i = beutel.getItem(2);
+
+
       Pokemon raupi = new Pokemon("Raupi", 10, "Käfer");
       raupi.setInitiative(7);
       raupi.setGewicht(7.43);
