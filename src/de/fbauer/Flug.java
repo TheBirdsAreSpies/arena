@@ -1,7 +1,5 @@
 package de.fbauer;
 
-import javax.swing.*;
-
 public class Flug extends Pokemon {
    private boolean istFliegend;
 
