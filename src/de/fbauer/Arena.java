@@ -2,14 +2,6 @@ package de.fbauer;
 
 public class Arena {
    public static void main(String[] args) {
-      Rechnung rechnung = new Rechnung("sql");
-      TestBla bla = new TestBla();
-
-   }
-
-   public static void main2(String[] args) {
-
-
       Pokemon raupi = new Pokemon("Raupi", 10, "Käfer");
       raupi.setInitiative(7);
       raupi.setGewicht(7.43);
@@ -69,14 +61,6 @@ public class Arena {
       System.out.println("Mein Pokemon ist " + pkm.getName());
 
       taubsi.fliegen("Irgendwo");
-
-      IDaten speicher = taubsi;
-      IDaten daten[] = {taubsi, pokeball};
-
-      for (IDaten obj : daten) {
-         obj.speichern();
-      }
-
 
 
       // kampf(hornliu, bibor);

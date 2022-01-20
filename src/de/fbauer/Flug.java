@@ -2,7 +2,7 @@ package de.fbauer;
 
 import javax.swing.*;
 
-public class Flug extends Pokemon implements IDaten {
+public class Flug extends Pokemon {
    private boolean istFliegend;
 
    public Flug(String name, int level) {
@@ -23,15 +23,5 @@ public class Flug extends Pokemon implements IDaten {
    public void issBeere(Beere beere) {
       System.out.println("Pfui, Beeren!");
       System.out.println(this.getName() + " spuckt die Beere aus.");
-   }
-
-   @Override
-   public void speichern() {
-      System.out.println("Ich speichere in Flug.");
-   }
-
-   @Override
-   public void laden() {
-      System.out.println("Ich lade in Flug.");
    }
 }

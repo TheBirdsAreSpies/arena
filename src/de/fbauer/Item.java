@@ -1,6 +1,6 @@
 package de.fbauer;
 
-public class Item implements IDaten {
+public class Item {
    // Pokeball
    // Trank
    private String name;
@@ -17,15 +17,5 @@ public class Item implements IDaten {
 
    public double getPreis() {
       return this.preis;
-   }
-
-   @Override
-   public void speichern() {
-      System.out.println("Speichern in Item");
-   }
-
-   @Override
-   public void laden() {
-      System.out.println("Laden in Item.");
    }
 }
